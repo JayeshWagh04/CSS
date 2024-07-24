@@ -1,0 +1,17 @@
+/* Tag selector  */
+p{
+    background: pink;
+}
+/* id selector  */
+#first_h1{
+ color: blueviolet;
+}
+#next_h1{
+    color: blue;
+}
+.in_red{
+color: red;
+}
+p, #first_h1, #next_h1, .in_red{
+    background-color: pink;
+}

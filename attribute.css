@@ -1,0 +1,20 @@
+img[alt]{
+    border: 2px solid black;
+    margin-right: 50px;
+}
+img[alt='flower']{
+    box-shadow: 5px 3px 5px green;
+}
+h1[class~="red"]{
+    color: red;
+}
+h1[class^=red]{
+    background-color: pink;
+}
+h1[class$= red]{
+    text-decoration: underline;
+}
+img[alt='fruit']{
+    background-color: 2px solid black;
+    box-shadow:5px 3px 5px blue ;
+}

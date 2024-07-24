@@ -1,0 +1,17 @@
+#red_box, #green_box, #blue_box{
+    height: 500px;
+    width: 400px;
+    border: 5px dasjed black;
+}
+#red_box{background-color: red;}
+#green_box{background-color: green;}
+#blue_box{background-color: blue;}
+#im_fixed{
+    top: 10px;
+    right: 10px;
+    position: fixed;
+}
+#im_realtive{
+    left: 100px;
+    position: relative;
+}

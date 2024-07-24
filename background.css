@@ -1,0 +1,40 @@
+#bg_color
+{
+   height: 300px;
+   width: 500px;
+   background-color: chocolate;
+   border: 2px solid black;
+   
+}
+
+#bg_image
+{
+   margin-top: 50px;
+   border: 2px solid black;
+   height: 300px;
+   width: 500px;
+   background-image: url('nature.jpg');
+   /* background-repeat: no-repeat; */
+   /* background-repeat: repeat-x; */
+   /* background-repeat: repeat-y; */
+   background-size: 100% 100%;
+}
+
+#bg_radial
+{
+   margin-top: 50px;
+   border: 2px solid black;
+   height: 300px;
+   width: 500px;
+   border-radius: 100%;
+   background-image: radial-gradient(yellow,red, black);
+}
+#bg_linear
+{
+   margin-top: 50px;
+   border: 2px solid black;
+   height: 300px;
+   width: 500px;
+   background-image: linear-gradient(yellow,red, black);
+
+}
